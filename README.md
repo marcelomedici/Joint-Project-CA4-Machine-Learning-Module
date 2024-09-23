@@ -2,6 +2,7 @@
 Project CA1 Data Visualisation 
 Title: Police Killings Scenario in USA
 Description: The project aims to study the scenario of the deaths caused by Police's operation in United States of America between 2015 to 2017, investigating the patterns among the variables.
+
 Content: The original file has been modified in some levels to match an better undertanding of the information. The changes below were applied;
         Columns such as "armed," "race," and "flee" were modified. N/A values were substituted with 'Not Specified.'
         The "age" column was modified, and N/A values were substituted with '0' to keep the column as numerical.
