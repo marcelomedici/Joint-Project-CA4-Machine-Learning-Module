@@ -15,7 +15,7 @@ PYTHON CODE MODIFICATIONS:
         1.3 df1['flee'].fillna('Not specified', inplace=True)
          
 2. The gaps in the "age" column was filled with N/A value.
-        2.1 df1['age'].fillna(N/A, inplace=True)
+        2.1 df1['age'].fillna(np.nan, inplace=True)
             
 3. "Body Camera" and "Signs_of_mental_illness" columns were modified from boolean to string, with 'Yes' and 'No' respectively.
         3.1 df1['body_camera'] = df1['body_camera'].replace({False:'No', True: 'Yes'})
@@ -37,7 +37,11 @@ PYTHON CODE MODIFICATIONS:
    
    ***Ask to Lisa ABOUT the code changes regading the column 'ARMED' to add here***
         
-POWER BI Query Changes:
+**POWER BI Query Changes**:
+Modifications:
+1st Headers: The first letter of each column has been capitalized.
+2nd The state abbreviations have been changed to their full names in order to display them correctly on the map chart.
+3nd A new column has been added based on the 'Armed' column. The new column is called 'Armed Status', where the values were changed from 'Unarmed' to 'No' and any values different from 'Unarmed' to 'Yes'. This way, we can more easily check whether the suspects were armed or not.
 
 
 ***TABLEU Query Changes:***
@@ -46,6 +50,3 @@ POWER BI Query Changes:
               
               
               
-
-              
-Data Visualisation Proggrams: Power BI and Tableau 
