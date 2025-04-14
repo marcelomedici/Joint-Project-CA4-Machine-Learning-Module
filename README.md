@@ -37,6 +37,7 @@ The method was chosen due to its ease of application and interpretation. To appl
 
 
 Individual contributions table:
+![image](https://github.com/user-attachments/assets/d4aef4a4-a345-4b65-87c0-8461bbb5a578)
 
 
 
