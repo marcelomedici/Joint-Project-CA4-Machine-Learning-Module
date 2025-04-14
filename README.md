@@ -21,7 +21,12 @@ Vectorization Process:
 2nd Attempt: This is the final vectorization approach taken. Variables with a large number of categories were handled using label encoding to avoid an increase in dimensionality. For that reason, only a few categorical variables were one-hot encoded. During preprocessing, the Doctor and Hospital variables were removed. Even though they didn’t appear to have a significant impact, we retained some nominal categories as one-hot encoded to maintain a balance and avoid losing too much information from the dataset.
 ![image](https://github.com/user-attachments/assets/475ff56d-4fad-42eb-a473-7e1d724a3f79)
 
-Xgboost:
+Xgboost: The model was implemented in a simple way. the first performance rate reached was: ROC-AUC: 0.5171
+Test Accuracy: 0.5121285627653123. so the hyperparameter tuning was applied, which improved the results: Acurracy: 0.539963 / F1Score: 0.539959 / Combined Score: 0.5399 
+![image](https://github.com/user-attachments/assets/313ba7a0-c4a4-4850-b658-b5a969703c8e)
+
+
+Niv
 
 
 
@@ -36,9 +41,3 @@ Xgboost:
 
 
 
-CODE PYTHON:
-- Data Wrangling:
-- Data Cleaning:
-- Data Pre-processing:
-- 
-  
