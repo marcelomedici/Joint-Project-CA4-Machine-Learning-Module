@@ -25,6 +25,9 @@ Xgboost: The model was implemented in a simple way. the first performance rate r
 Test Accuracy: 0.5121285627653123. so the hyperparameter tuning was applied, which improved the results: Acurracy: 0.539963 / F1Score: 0.539959 / Combined Score: 0.5399 
 ![image](https://github.com/user-attachments/assets/313ba7a0-c4a4-4850-b658-b5a969703c8e)
 
+![image](https://github.com/user-attachments/assets/d1e37ba7-fcdc-4df6-a77e-22868f20bddc)
+
+
 
 Niv
 
